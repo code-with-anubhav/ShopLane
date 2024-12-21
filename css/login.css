@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.login-box {
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.textbox {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.textbox i {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #ccc;
+}
+
+.textbox input {
+  width: 100%;
+  padding: 0.75rem 0.75rem 0.75rem 2.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.75rem;
+  background: #2575fc;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #6a11cb;
+}
+
+.social-login {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.social-login p {
+  margin-bottom: 0.5rem;
+}
+
+.social-btn {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 10px;
+  background: #ddd;
+  border-radius: 50%;
+  color: #333;
+  font-size: 1.2rem;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.social-btn:hover {
+  background: #2575fc;
+  color: white;
+}
+
+.links {
+  text-align: center;
+}
+
+.link {
+  display: inline-block;
+  margin: 0 10px;
+  color: #2575fc;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

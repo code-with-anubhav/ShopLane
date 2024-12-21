@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="loginn.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <div class="logo">
+          <h1>Wing<span>Span</span></h1>
+        </div>
+        <h2>Welcome Back, Traveler's</h2>
+        <p>Login to view your flight deals</p>
+        <form id="loginForm">
+          <h3>Sign In</h3>
+          <div class="input-box">
+            <input type="email" placeholder="Email" name="email" required />
+          </div>
+          <div class="input-box">
+            <input
+              type="password"
+              placeholder="Password"
+              name="password"
+              required
+            />
+          </div>
+          <div class="checkbox-container">
+            <div class="checkbox">
+              <input type="checkbox" name="remember" id="remember" />
+              <label for="remember">Remember me </label>
+            </div>
+            <a href="#" class="forget-password">Forget Password?</a>
+          </div>
+          <button type="submit" class="btn">Login</button>
+          <div class="social-login">
+            <p>Or login with</p>
+            <button class="google-btn">
+              <i class="fab fa-google"></i>
+              Continue with Google
+            </button>
+          </div>
+          <div class="signup-link">
+            <p>Don't have an account?<a href="#">Get Started</a></p>
+          </div>
+        </form>
+      </div>
+      <div class="image-container">
+        <img src="png8.png" alt="Travel Image" />
+        <div class="mage-text">
+          <h3>"Never overpay for flight again"</h3>
+          <p>_ WingSpan flight</p>
+        </div>
+      </div>
+    </div>
+    <script src="loginn.js"></script>
+  </body>
+</html>

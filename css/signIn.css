@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  max-width: 1200px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.form-container {
+  width: 50%;
+  padding: 2rem;
+}
+
+.form-container h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.input-box {
+  margin-bottom: 1rem;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.checkbox input {
+  margin-right: 0.5rem;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.75rem;
+  background: #000;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #444;
+}
+
+.social-login {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.social-login p {
+  margin-bottom: 0.5rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  background: #f4f4f4;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: #333;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.social-icons a:hover {
+  background: #ddd;
+}
+
+.social-icons i {
+  margin-right: 0.5rem;
+}
+
+.login-link {
+  text-align: center;
+}
+
+.login-link a {
+  color: #000;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+.image-container {
+  width: 50%;
+  background: url("image.jpg") no-repeat center center/cover;
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-text {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  color: white;
+}
+
+.image-text h3 {
+  margin-bottom: 1rem;
+}
+
+.tags button {
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: background 0.3s;
+}
+
+.tags button:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .form-container,
+  .image-container {
+    width: 100%;
+  }
+
+  .image-text {
+    bottom: 1rem;
+    left: 1rem;
+  }
+
+  .tags button {
+    margin-bottom: 0.5rem;
+  }
+}
